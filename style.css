@@ -1,0 +1,133 @@
+.h1 {
+    
+    color: white;
+    border: solid;    
+}
+
+.Content {
+    
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-around; 
+    text-align: center;
+}
+
+.TopPanel{
+    
+    display: flex;        
+    flex-wrap: wrap; 
+    align-items: center;   
+    background-image: url("Images/Heading.png");   
+    justify-content: space-between;
+    background-color:black;
+    height: 300px;    
+}
+
+.OtherPages{
+
+    height: 700px;
+    justify-content: center;
+
+}
+
+.OtherPagesTopPanel{
+    
+    justify-content: center; 
+    align-items: center; 
+    background-image: url("Images/Heading.png");           
+    height: 300px;           
+}
+
+.OtherPagesContent{
+
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+
+.OtherPagesHeader{
+    
+    color: white;                       
+    font-family: cursive;     
+    text-align: center;      
+}
+
+.BottomPanel {
+    
+    background-color: black;    
+}
+
+.row {
+
+    display: flex;
+}
+
+.heading h3{
+
+    font-family:cursive;        
+}
+.Images{
+
+    border: solid;  
+    margin-top: 100px;
+    border-color: black;   
+}
+
+.BottomPanelCredits{
+        
+    position:absolute;right: 0px;
+    margin-top: 1000px;  
+    position: absolute;bottom: 100px; 
+    position:absolute;top: 200px;  
+}
+
+.Body{
+
+    min-height: 1000px;
+}
+
+.Header{
+    
+    color: white;  
+    position: absolute;right:35%;                 
+    font-family: cursive;  
+    text-align: center;    
+}
+.remarks{
+
+    position:absolute;right: 50px;
+    position:absolute;top: 200px;
+}
+
+.remarks img{
+
+    margin-left: 20px;      
+}
+
+.remarks img:hover{
+
+    transform:scale(1.2);
+}
+
+.AboutOrigami{
+
+    font-family: -apple-system;
+}
+
+.Images:hover{
+
+    transform: scale(1.1);
+}
+
+a:link{
+    
+    color: blue;
+}
+a:visited{
+
+    color: purple;
+}
+
+.BottomPanelCredits img:hover{
+
+    transform: scale(1.2);
+}
