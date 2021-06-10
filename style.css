@@ -17,7 +17,7 @@
     display: flex;        
     flex-wrap: wrap; 
     align-items: center;   
-    background-image: url("Images/Heading.png");   
+    background-image: url("images/Heading.png");   
     justify-content: space-between;
     background-color:black;
     height: 300px;    
